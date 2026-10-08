@@ -1,0 +1,21 @@
+data,mandante,visitante,gols_mandante,gols_visitante,total_gols
+2023-10-07,Goias,Bahia,4,6,10
+2023-09-18,Corinthians,Gremio,4,4,8
+2023-10-22,Internacional,Santos,7,1,8
+2023-10-25,Fluminense,Goias,5,3,8
+2023-07-09,Santos,Goias,4,3,7
+2023-10-28,America-MG,Gremio,3,4,7
+2023-10-29,Internacional,Coritiba,3,4,7
+2023-11-01,Botafogo-RJ,Palmeiras,3,4,7
+2023-11-09,Botafogo-RJ,Gremio,3,4,7
+2023-04-29,Fortaleza,Fluminense,4,2,6
+2023-05-07,Gremio,Bragantino,3,3,6
+2023-05-20,Sao Paulo,Vasco,4,2,6
+2023-06-25,Gremio,Coritiba,5,1,6
+2023-07-29,Athletico-PR,Cruzeiro,3,3,6
+2023-09-14,Coritiba,Bahia,2,4,6
+2023-09-16,Vasco,Fluminense,4,2,6
+2023-09-21,Vasco,Coritiba,5,1,6
+2023-10-19,Fluminense,Corinthians,3,3,6
+2023-11-24,Corinthians,Bahia,1,5,6
+2023-11-28,Vasco,Corinthians,2,4,6

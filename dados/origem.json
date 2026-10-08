@@ -1,0 +1,14 @@
+{
+  "fonte": "https://github.com/adaoduque/Brasileirao_Dataset",
+  "arquivo": "https://raw.githubusercontent.com/adaoduque/Brasileirao_Dataset/master/campeonato-brasileiro-full.csv",
+  "coleta": "2026-10-08",
+  "sha256_csv_original": "c09d03d36debfd7d7aee71da9a9f0909b5e420fc80a1705f215efc93c76e83fc",
+  "recorte": "Partidas com data no ano civil de 2023; para esta temporada corresponde aos 380 jogos.",
+  "tratamento": [
+    "Seleção de campos de placar e identificação",
+    "Datas convertidas para AAAA-MM-DD",
+    "Clubes separados em tabela própria, IDs atribuídos por ordem alfabética",
+    "Grafia dos clubes preservada da fonte"
+  ],
+  "observacao": "Base comunitária; resultados não auditados individualmente contra súmulas oficiais."
+}
