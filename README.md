@@ -25,6 +25,13 @@ Os mandantes venceram com maior frequência que os visitantes neste recorte. Iss
 
 [Consultar todas as tabelas de resultados](resultados/RESULTADOS.md).
 
+## Decisões técnicas e conferência
+
+- **Separar clubes e partidas:** cada clube possui um identificador, usado nas duas chaves estrangeiras da partida. As restrições impedem referências inexistentes e jogos de um clube contra ele mesmo.
+- **Usar uma visão com `UNION ALL`:** cada jogo aparece pela perspectiva do mandante e do visitante, permitindo agregar gols feitos e sofridos por clube.
+- **Cuidado de contagem:** a visão tem 760 linhas para 380 jogos. Totais de partidas devem partir de `partidas`, enquanto indicadores por clube podem usar `desempenho`.
+- **Validação implementada:** [executar.py](executar.py) verifica quantidade de partidas e clubes, jogos por clube e rodada, chaves estrangeiras e igualdade entre gols feitos e sofridos. O código das tabelas e da visão está em [00_estrutura.sql](sql/00_estrutura.sql).
+
 ## Organização
 
 | Arquivo ou pasta | Conteúdo |
